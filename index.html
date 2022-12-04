@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla JS</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css"></link>
+  </head>
+
+  <body>
+    <img id="img">
+    <header>
+      <h2 id="clock">00:00:00</h2>
+    </header>
+    <main>
+      <form id="login-form" class="hidden">
+        <input required maxlength="15" type="text" placeholder="What is your name?">
+        <button>Log In</button>
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+      <form id="todo-form" class="hidden">
+        <input type="text" placeholder="Write a To Do and press">
+      </form>
+      <ul id="todo-list"></ul>
+      <article>
+        <div id="weather">
+          <span></span><br>
+          <span></span>
+        </div>
+      </article>
+    </main>
+    <footer>
+      명언
+      <div id="quote">
+        <span></span><br><br>
+        <span></span>
+      </div>
+    </footer>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
