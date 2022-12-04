@@ -1,5 +1,5 @@
 .hidden {
-  display:none;
+  visibility: hidden;
 }
 
 body {
@@ -8,12 +8,19 @@ body {
   text-align: center;
   color:bisque;
 
+
   border: solid 1px;
+}
+
+body main {
+  position: relative;
 }
 
 body header h2{
   font-size: 5em;
-  border: solid 1px;
+  /* border: solid 1px; */
+  border-bottom: solid 1px;
+  margin: auto;
 
   /* position: absolute; */
   /* text-align: center; */
@@ -48,4 +55,16 @@ main form#todo-form input{
 
 main ul#todo-list{
   list-style: none;
+}
+
+main #weatherParents{
+  border: dashed 3px darksalmon;
+  /* color: white; */
+  font-size: 2em;
+  width: 240px;
+  margin: 0 0 0 auto;
+  position: absolute;
+  top: 40%;
+  /* bottom: 40%; */
+  right: 5%;
 }
